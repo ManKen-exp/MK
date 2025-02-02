@@ -640,5 +640,15 @@ footer {
 	.footer-cols {
 		grid-template-columns: 37.5% 25% 37.5%;
 	}
-	
+	.google-map{
+		padding-bottom: 50%;
+		position:relative;
+	}
+	.google-map iframe{
+		height: 100%;
+		width: 70%;
+		left:0;
+		top:0;
+		position:absolute;
+	}
 }
